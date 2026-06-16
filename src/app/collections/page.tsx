@@ -57,7 +57,7 @@ export default function CollectionsPage() {
               <p className="font-body-md text-body-md text-on-surface-variant flex-grow">
                 Rare redlines, treasure hunts, and premium diecast models. Perfect for completing your 1:64 scale garage showcase.
               </p>
-              <Link className="mt-4 font-label-lg text-label-lg text-hero-red hover:text-inverse-primary flex items-center gap-1 uppercase tracking-wider" href="#">
+              <Link className="mt-4 font-label-lg text-label-lg text-hero-red hover:text-inverse-primary flex items-center gap-1 uppercase tracking-wider" href="/collections">
                 View Inventory <span className="material-symbols-outlined text-sm">arrow_forward</span>
               </Link>
             </div>
@@ -80,7 +80,7 @@ export default function CollectionsPage() {
               <p className="font-body-md text-body-md text-on-surface-variant flex-grow">
                 Investment-grade slabs and raw gems across Baseball, Basketball, and Football. Rookies, autos, and numbered refractors.
               </p>
-              <Link className="mt-4 font-label-lg text-label-lg text-royal-blue hover:text-secondary-container flex items-center gap-1 uppercase tracking-wider" href="#">
+              <Link className="mt-4 font-label-lg text-label-lg text-royal-blue hover:text-secondary-container flex items-center gap-1 uppercase tracking-wider" href="/collections">
                 View Inventory <span className="material-symbols-outlined text-sm">arrow_forward</span>
               </Link>
             </div>
@@ -102,7 +102,7 @@ export default function CollectionsPage() {
               <p className="font-body-md text-body-md text-on-surface-variant flex-grow">
                 Pop culture artifacts captured in cardboard. Discover rare pulls from classic Sitcoms, iconic Bands, and the Star Wars universe.
               </p>
-              <Link className="mt-4 font-label-lg text-label-lg text-hero-red hover:text-inverse-primary flex items-center gap-1 uppercase tracking-wider" href="#">
+              <Link className="mt-4 font-label-lg text-label-lg text-hero-red hover:text-inverse-primary flex items-center gap-1 uppercase tracking-wider" href="/collections">
                 View Inventory <span className="material-symbols-outlined text-sm">arrow_forward</span>
               </Link>
             </div>
@@ -124,7 +124,7 @@ export default function CollectionsPage() {
               <p className="font-body-md text-body-md text-on-surface-variant flex-grow">
                 Relive the glory days of the track. Authentic sheet metal, signed gear, and limited edition team issues for the serious racing historian.
               </p>
-              <Link className="mt-4 font-label-lg text-label-lg text-hero-red hover:text-inverse-primary flex items-center gap-1 uppercase tracking-wider" href="#">
+              <Link className="mt-4 font-label-lg text-label-lg text-hero-red hover:text-inverse-primary flex items-center gap-1 uppercase tracking-wider" href="/collections">
                 View Inventory <span className="material-symbols-outlined text-sm">arrow_forward</span>
               </Link>
             </div>
@@ -150,9 +150,9 @@ export default function CollectionsPage() {
               <p className="font-body-md text-body-md text-on-surface-variant mb-6 max-w-md">
                 The ultimate pursuit. One-of-a-kind prototypes, error prints, and museum-grade artifacts that rarely see the open market. Inquire for valuation and acquisition services.
               </p>
-              <button className="self-start font-label-lg text-label-lg font-bold text-ink-black bg-power-yellow px-6 py-2 rounded-DEFAULT hover:bg-white transition-colors">
-                Request Concierge Service
-              </button>
+              <Link href="/contact" className="self-start font-label-lg text-label-lg font-bold text-ink-black bg-power-yellow px-6 py-2 rounded-DEFAULT hover:bg-white transition-colors text-center inline-block">
+                Get an Appraisal
+              </Link>
             </div>
           </article>
 

@@ -15,11 +15,11 @@ export function Footer() {
       <div className="flex flex-col md:items-end gap-2">
         <h4 className="font-title-lg text-title-lg text-paper-white mb-2">Services</h4>
         <nav className="flex flex-col md:items-end gap-2">
-          <Link className="font-body-md text-body-md text-on-surface-variant hover:text-hero-red transition-colors" href="#">Buying</Link>
-          <Link className="font-body-md text-body-md text-on-surface-variant hover:text-hero-red transition-colors" href="#">Selling</Link>
-          <Link className="font-body-md text-body-md text-on-surface-variant hover:text-hero-red transition-colors" href="#">Trading</Link>
-          <Link className="font-body-md text-body-md text-on-surface-variant hover:text-hero-red transition-colors" href="#">Valuations</Link>
-          <Link className="font-body-md text-body-md text-on-surface-variant hover:text-hero-red transition-colors mt-4 text-sm opacity-70" href="#">Privacy Policy</Link>
+          <Link className="font-body-md text-body-md text-on-surface-variant hover:text-hero-red transition-colors" href="/services">Buying</Link>
+          <Link className="font-body-md text-body-md text-on-surface-variant hover:text-hero-red transition-colors" href="/services">Selling</Link>
+          <Link className="font-body-md text-body-md text-on-surface-variant hover:text-hero-red transition-colors" href="/services">Trading</Link>
+          <Link className="font-body-md text-body-md text-on-surface-variant hover:text-hero-red transition-colors" href="/services">Valuations</Link>
+          <Link className="font-body-md text-body-md text-on-surface-variant hover:text-hero-red transition-colors mt-4 text-sm opacity-70" href="/">Privacy Policy</Link>
         </nav>
       </div>
     </footer>

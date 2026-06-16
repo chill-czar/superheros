@@ -19,13 +19,12 @@ export default function ServicesPage() {
                 Your collection is a legacy. Whether you are looking to liquidate rare vintage comics, trade up modern sports cards, or require a certified appraisal for insurance, our experts provide transparent, authoritative, and premium service.
               </p>
               <div className="flex flex-wrap gap-4">
-                <button className="bg-hero-red text-paper-white font-label-lg text-label-lg px-8 py-4 rounded font-bold hover:bg-hero-red/90 transition-colors flex items-center gap-2">
-                  Request Valuation
-                  <span className="material-symbols-outlined text-sm">arrow_forward</span>
-                </button>
-                <button className="border-2 border-royal-blue text-paper-white font-label-lg text-label-lg px-8 py-4 rounded font-bold hover:bg-royal-blue/10 transition-colors">
-                  How We Buy
-                </button>
+                <Link href="/contact" className="bg-hero-red text-paper-white font-label-lg text-label-lg px-8 py-4 rounded font-bold hover:bg-hero-red/90 transition-colors flex items-center gap-2 justify-center">
+                  Sell Your Items <span className="material-symbols-outlined text-sm">arrow_forward</span>
+                </Link>
+                <Link href="/contact" className="border-2 border-royal-blue text-paper-white font-label-lg text-label-lg px-8 py-4 rounded font-bold hover:bg-royal-blue/10 transition-colors text-center">
+                  Get an Appraisal
+                </Link>
               </div>
             </div>
           </div>
@@ -65,7 +64,7 @@ export default function ServicesPage() {
                       <span className="material-symbols-outlined text-power-yellow text-sm">check_circle</span> Secure bank transfers
                     </li>
                   </ul>
-                  <Link className="inline-flex items-center gap-2 text-hero-red font-label-lg text-label-lg hover:text-hero-red/80 transition-colors" href="#">
+                  <Link className="inline-flex items-center gap-2 text-hero-red font-label-lg text-label-lg hover:text-hero-red/80 transition-colors" href="/contact">
                     Start Selling <span className="material-symbols-outlined text-sm">arrow_forward</span>
                   </Link>
                 </div>
@@ -90,7 +89,7 @@ export default function ServicesPage() {
                   <div className="bg-surface-container-highest rounded p-4 mb-6 border-l-2 border-royal-blue">
                     <p className="font-label-sm text-label-sm text-on-background italic">&quot;I traded two Silver Age keys for a pristine modern grail. The process was transparent and fair.&quot;</p>
                   </div>
-                  <Link className="inline-flex items-center gap-2 text-royal-blue font-label-lg text-label-lg hover:text-royal-blue/80 transition-colors" href="#">
+                  <Link className="inline-flex items-center gap-2 text-royal-blue font-label-lg text-label-lg hover:text-royal-blue/80 transition-colors" href="/contact">
                     View Trade Ratios <span className="material-symbols-outlined text-sm">arrow_forward</span>
                   </Link>
                 </div>
@@ -121,9 +120,9 @@ export default function ServicesPage() {
                         <div className="font-label-sm text-label-sm text-on-surface-variant uppercase">Market Accurate</div>
                       </div>
                     </div>
-                    <button className="bg-paper-white text-ink-black font-label-lg text-label-lg px-8 py-3 rounded font-bold hover:bg-on-surface-variant transition-colors">
-                      Schedule Appraisal
-                    </button>
+                    <Link href="/contact" className="bg-paper-white text-ink-black font-label-lg text-label-lg px-8 py-3 rounded font-bold hover:bg-on-surface-variant transition-colors text-center inline-block">
+                      Contact Our Buyers
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -137,9 +136,9 @@ export default function ServicesPage() {
             <span className="material-symbols-outlined text-4xl text-on-surface-variant mb-6">local_shipping</span>
             <h2 className="font-headline-md text-headline-lg-mobile md:text-headline-md text-paper-white mb-6 uppercase">Ready to get started?</h2>
             <p className="font-body-md text-body-md text-on-surface-variant mb-8">Bring your items to our Klamath Falls location, or securely ship them to our appraisal vault.</p>
-            <button className="bg-hero-red text-paper-white font-label-lg text-label-lg px-10 py-4 rounded font-bold hover:bg-hero-red/90 transition-colors shadow-lg shadow-hero-red/20">
-              Contact The Vault
-            </button>
+            <Link href="/contact" className="bg-hero-red text-paper-white font-label-lg text-label-lg px-10 py-4 rounded font-bold hover:bg-hero-red/90 transition-colors shadow-lg shadow-hero-red/20 inline-block text-center">
+              Contact Us Today
+            </Link>
           </div>
         </section>
       </main>

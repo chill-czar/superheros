@@ -30,12 +30,12 @@ export default function HomePage() {
               and Premium Sports Cards in Klamath County.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <button className="bg-hero-red text-paper-white font-label-lg text-label-lg px-8 py-4 rounded font-bold hover:bg-primary-container transition-colors uppercase tracking-wider">
+              <Link href="/collections" className="bg-hero-red text-paper-white font-label-lg text-label-lg px-8 py-4 rounded font-bold hover:bg-primary-container transition-colors uppercase tracking-wider text-center">
                 Browse Collections
-              </button>
-              <button className="border-2 border-royal-blue text-paper-white font-label-lg text-label-lg px-8 py-4 rounded font-bold hover:bg-royal-blue/20 transition-colors uppercase tracking-wider">
+              </Link>
+              <Link href="/contact" className="border-2 border-royal-blue text-paper-white font-label-lg text-label-lg px-8 py-4 rounded font-bold hover:bg-royal-blue/20 transition-colors uppercase tracking-wider text-center">
                 Sell/Trade with Us
-              </button>
+              </Link>
             </div>
           </div>
         </section>
@@ -67,7 +67,7 @@ export default function HomePage() {
               {/* Diecast Card */}
               <Link
                 className="group relative col-span-1 md:col-span-8 rounded-xl overflow-hidden bg-surface-charcoal border border-surface-container-highest hover:border-hero-red transition-all duration-300 shadow-lg shadow-black/15 block aspect-video md:aspect-auto h-[400px]"
-                href="#"
+                href="/collections"
               >
                 <Image
                   alt="A pristine collection of rare Hot Wheels and diecast model cars displayed on a sleek shelf in a specialized collectibles store setting, illuminated by bright, professional studio lighting."
@@ -92,7 +92,7 @@ export default function HomePage() {
               {/* Sports Cards */}
               <Link
                 className="group relative col-span-1 md:col-span-4 rounded-xl overflow-hidden bg-surface-charcoal border border-surface-container-highest hover:border-royal-blue transition-all duration-300 shadow-lg shadow-black/15 block h-[400px]"
-                href="#"
+                href="/collections"
               >
                 <Image
                   alt="Premium graded sports cards, baseball cards, and entertainment trading cards neatly stacked in protective acrylic sleeves against a clean, professionally lit background."
@@ -114,7 +114,7 @@ export default function HomePage() {
               {/* Comic Books (Text Focus) */}
               <Link
                 className="group relative col-span-1 md:col-span-6 rounded-xl overflow-hidden bg-surface-charcoal border border-surface-container-highest hover:border-hero-red transition-all duration-300 shadow-lg shadow-black/15 block p-8 flex flex-col justify-center items-center text-center h-[300px]"
-                href="#"
+                href="/collections"
               >
                 <span
                   className="material-symbols-outlined text-hero-red text-6xl mb-4 group-hover:scale-110 transition-transform"
@@ -133,7 +133,7 @@ export default function HomePage() {
               {/* Action Figures (Text Focus) */}
               <Link
                 className="group relative col-span-1 md:col-span-6 rounded-xl overflow-hidden bg-surface-charcoal border border-surface-container-highest hover:border-royal-blue transition-all duration-300 shadow-lg shadow-black/15 block p-8 flex flex-col justify-center items-center text-center h-[300px]"
-                href="#"
+                href="/collections"
               >
                 <span
                   className="material-symbols-outlined text-royal-blue text-6xl mb-4 group-hover:scale-110 transition-transform"
