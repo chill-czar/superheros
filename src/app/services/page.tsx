@@ -19,10 +19,10 @@ export default function ServicesPage() {
                 Your collection is a legacy. Whether you are looking to liquidate rare vintage comics, trade up modern sports cards, or require a certified appraisal for insurance, our experts provide transparent, authoritative, and premium service.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link href="/contact" className="bg-hero-red text-paper-white font-label-lg text-label-lg px-8 py-4 rounded font-bold hover:bg-hero-red/90 transition-colors flex items-center gap-2 justify-center">
+                <Link href="/contact" className="w-full sm:w-auto bg-hero-red text-paper-white font-label-lg text-label-lg px-8 py-4 rounded font-bold hover:bg-hero-red/90 transition-colors flex items-center gap-2 justify-center">
                   Sell Your Items <span className="material-symbols-outlined text-sm">arrow_forward</span>
                 </Link>
-                <Link href="/contact" className="border-2 border-royal-blue text-paper-white font-label-lg text-label-lg px-8 py-4 rounded font-bold hover:bg-royal-blue/10 transition-colors text-center">
+                <Link href="/contact" className="w-full sm:w-auto border-2 border-royal-blue text-paper-white font-label-lg text-label-lg px-8 py-4 rounded font-bold hover:bg-royal-blue/10 transition-colors text-center">
                   Get an Appraisal
                 </Link>
               </div>

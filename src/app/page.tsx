@@ -29,11 +29,11 @@ export default function HomePage() {
               Curating the finest selection of Comic Books, Vintage Action Figures,
               and Premium Sports Cards in Klamath County.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <Link href="/collections" className="bg-hero-red text-paper-white font-label-lg text-label-lg px-8 py-4 rounded font-bold hover:bg-primary-container transition-colors uppercase tracking-wider text-center">
+            <div className="flex flex-col sm:flex-row gap-4 mt-8 w-full sm:w-max">
+              <Link href="/collections" className="w-full sm:w-auto bg-hero-red text-paper-white font-label-lg text-label-lg px-8 py-4 rounded font-bold hover:bg-primary-container transition-colors uppercase tracking-wider text-center">
                 Browse Collections
               </Link>
-              <Link href="/contact" className="border-2 border-royal-blue text-paper-white font-label-lg text-label-lg px-8 py-4 rounded font-bold hover:bg-royal-blue/20 transition-colors uppercase tracking-wider text-center">
+              <Link href="/contact" className="w-full sm:w-auto border-2 border-royal-blue text-paper-white font-label-lg text-label-lg px-8 py-4 rounded font-bold hover:bg-royal-blue/20 transition-colors uppercase tracking-wider text-center">
                 Sell/Trade with Us
               </Link>
             </div>
@@ -66,7 +66,7 @@ export default function HomePage() {
             <div className="grid grid-cols-1 md:grid-cols-12 gap-gutter">
               {/* Diecast Card */}
               <Link
-                className="group relative col-span-1 md:col-span-8 rounded-xl overflow-hidden bg-surface-charcoal border border-surface-container-highest hover:border-hero-red transition-all duration-300 shadow-lg shadow-black/15 block aspect-video md:aspect-auto h-[400px]"
+                className="group relative col-span-1 md:col-span-8 rounded-xl overflow-hidden bg-surface-charcoal border border-surface-container-highest hover:border-hero-red transition-all duration-300 shadow-lg shadow-black/15 block h-[400px]"
                 href="/collections"
               >
                 <Image
@@ -77,14 +77,14 @@ export default function HomePage() {
                   style={{ objectFit: 'cover' }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink-black via-ink-black/50 to-transparent"></div>
-                <div className="absolute bottom-0 left-0 p-8 w-full">
-                  <span className="inline-block bg-power-yellow text-ink-black font-label-sm text-label-sm px-3 py-1 rounded font-bold uppercase mb-3">
+                <div className="absolute bottom-0 left-0 p-4 sm:p-8 w-full">
+                  <span className="inline-block bg-power-yellow text-ink-black font-label-sm text-label-sm px-3 py-1 rounded font-bold uppercase mb-2 sm:mb-3">
                     Popular
                   </span>
-                  <h3 className="font-headline-md text-headline-md text-paper-white uppercase">
+                  <h3 className="font-headline-md text-title-lg sm:text-headline-md text-paper-white uppercase break-words">
                     Diecast &amp; Hot Wheels
                   </h3>
-                  <p className="font-body-md text-body-md text-on-surface-variant mt-2 max-w-md hidden md:block">
+                  <p className="font-body-md text-body-md text-on-surface-variant mt-2 max-w-md hidden sm:block">
                     Discover rare variants, limited editions, and classic models.
                   </p>
                 </div>
@@ -102,18 +102,18 @@ export default function HomePage() {
                   style={{ objectFit: 'cover' }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink-black via-ink-black/50 to-transparent"></div>
-                <div className="absolute bottom-0 left-0 p-8 w-full">
-                  <span className="inline-block bg-hero-red text-paper-white font-label-sm text-label-sm px-3 py-1 rounded font-bold uppercase mb-3">
+                <div className="absolute bottom-0 left-0 p-4 sm:p-8 w-full">
+                  <span className="inline-block bg-hero-red text-paper-white font-label-sm text-label-sm px-3 py-1 rounded font-bold uppercase mb-2 sm:mb-3">
                     Investment Grade
                   </span>
-                  <h3 className="font-headline-md text-title-lg text-paper-white uppercase">
+                  <h3 className="font-headline-md text-title-lg sm:text-title-lg text-paper-white uppercase break-words">
                     Sports Cards
                   </h3>
                 </div>
               </Link>
               {/* Comic Books (Text Focus) */}
               <Link
-                className="group relative col-span-1 md:col-span-6 rounded-xl overflow-hidden bg-surface-charcoal border border-surface-container-highest hover:border-hero-red transition-all duration-300 shadow-lg shadow-black/15 block p-8 flex flex-col justify-center items-center text-center h-[300px]"
+                className="group relative col-span-1 md:col-span-6 rounded-xl overflow-hidden bg-surface-charcoal border border-surface-container-highest hover:border-hero-red transition-all duration-300 shadow-lg shadow-black/15 block p-4 sm:p-8 flex flex-col justify-center items-center text-center h-[300px]"
                 href="/collections"
               >
                 <span
@@ -122,7 +122,7 @@ export default function HomePage() {
                 >
                   menu_book
                 </span>
-                <h3 className="font-headline-md text-headline-md text-paper-white uppercase">
+                <h3 className="font-headline-md text-title-lg sm:text-headline-md text-paper-white uppercase break-words">
                   Comic Books
                 </h3>
                 <p className="font-body-md text-body-md text-on-surface-variant mt-2 max-w-sm">
@@ -132,7 +132,7 @@ export default function HomePage() {
               </Link>
               {/* Action Figures (Text Focus) */}
               <Link
-                className="group relative col-span-1 md:col-span-6 rounded-xl overflow-hidden bg-surface-charcoal border border-surface-container-highest hover:border-royal-blue transition-all duration-300 shadow-lg shadow-black/15 block p-8 flex flex-col justify-center items-center text-center h-[300px]"
+                className="group relative col-span-1 md:col-span-6 rounded-xl overflow-hidden bg-surface-charcoal border border-surface-container-highest hover:border-royal-blue transition-all duration-300 shadow-lg shadow-black/15 block p-4 sm:p-8 flex flex-col justify-center items-center text-center h-[300px]"
                 href="/collections"
               >
                 <span
@@ -141,7 +141,7 @@ export default function HomePage() {
                 >
                   sports_martial_arts
                 </span>
-                <h3 className="font-headline-md text-headline-md text-paper-white uppercase">
+                <h3 className="font-headline-md text-title-lg sm:text-headline-md text-paper-white uppercase break-words">
                   Action Figures
                 </h3>
                 <p className="font-body-md text-body-md text-on-surface-variant mt-2 max-w-sm">
